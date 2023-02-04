@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0%;
+    padding-left: 1.5em;
+}
+
+
+.content{
+    max-width: 1170px;
+    min-width: 370pxa;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo {
+    text-align: center;
+    font-size: 3em ;
+}
+.logo span{
+    color: #fa6b05;
+}
+
+
+
+.menu{
+    height: 60px;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .menu li a{
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     display: block;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .menu li{
+     display: inline-block;
+     text-align: center;
+ }
+ 
+ .menu li a:hover{
+     background: #ef8354;
+     display: flex;
+     justify-content: center;
+     text-align:Center;
+ }
+
+.menu{
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, .3)
+}
+
+.base{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3)
+}
+
+.base{
+    text-align: justify;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+ }
+ 
+ .base li a{
+     text-decoration: none;
+     text-align: justify;
+     color: white;
+     padding: 20px;
+     display: block;
+     display: flex;
+     justify-content: center;
+     place-content:Center;
+ }
+ 
+ .base li{
+     display: inline-block;
+     text-align: justify;
+     place-content:Center;
+ }
+ 
+.base li a:hover{
+     display: flex;
+     justify-content: center;
+     text-align: justify;
+ }
+
+
+
+ .base li i:hover{
+    font-size: 1.5em;
+    display: inline-block;
+    background: #ef8354;
+    justify-content: center;
+    text-align: justify;
+    place-content:Center;
+}
+
+.base li i :hover{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3)
+}
+
+
+ footer{
+    display: grid;
+    place-content:Center;
+    text-align: center;
+}
+
